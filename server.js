@@ -17,7 +17,13 @@ const countDigits = (d) => {
   return count;
 }
 
-app.get("/api/timestamp/", (req, res) => {
+app.get("/", (req, res) => {
+  res.send("Get /api/timestamp to get current utc & unix times. \n" +
+           "Get /api/timestamp/date_string to get utc & unix times for that date"
+           );
+})
+
+app.get("/api/timestamp/?", (req, res) => {
   let now = new Date();
   res.json({
     "unix": now.getTime(),
