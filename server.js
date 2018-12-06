@@ -2,11 +2,6 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(express.json());
-
-// used to validate the output of parseInt()
-// parseInt(12-12-12) returns 12 but its digit count is not equal to "12-12-12".length
-// parseInt(12) also returns 12, but its digit count IS equal to "12".length
 const countDigits = (d) => {
   let count = 0;
   while (d > 0) {
