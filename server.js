@@ -3,7 +3,6 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
-app.use(express.urlencoded({extended:false}));
 
 // used to validate the output of parseInt()
 // parseInt(12-12-12) returns 12 but its digit count is not equal to "12-12-12".length
