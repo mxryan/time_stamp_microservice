@@ -1,0 +1,20 @@
+{
+  "name": "time_stamp_microservice",
+  "version": "1.0.0",
+  "description": "Hit the API route with a valid date string as a parameter and it returns a json object with the corresponding utc and unix times",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxryan/time_stamp_microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxryan/time_stamp_microservice/issues"
+  },
+  "homepage": "https://github.com/mxryan/time_stamp_microservice#readme"
+}
