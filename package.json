@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mxryan/time_stamp_microservice/issues"
   },
-  "homepage": "https://github.com/mxryan/time_stamp_microservice#readme"
+  "homepage": "https://github.com/mxryan/time_stamp_microservice#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
